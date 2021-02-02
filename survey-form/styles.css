@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin-bottom: 48px;
+}
+
+body {
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	background: linear-gradient(#9198e5, #09015f);
+	color: #eee;
+	font-weight: 700;
+	margin: 0;
+}
+
+.form-box {
+	width: 50vw;
+	margin: 0 auto;
+	background-color: #1a508b;
+	margin-bottom: 30px;
+}
+
+.form {
+	text-align: left;
+	padding: 30px;
+}
+
+.form span {
+	font-size: 0.7em;
+}
+
+.form label {
+	color: #eee;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.form p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.form input {
+}
+
+.form input[type='text'],
+.form input[type='number'],
+.form input[type='email'],
+.form input[type='submit'],
+.form textarea,
+.form select {
+	font-family: 'Comfortaa', cursive;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+}
+
+.form select {
+	font-size: 14px;
+}
+
+.form .form-group {
+	margin-bottom: 30px;
+}
+
+.form input[type='submit'] {
+	padding: 10px 80px;
+	background-color: #37af65;
+	color: #eee;
+	font-weight: 700;
+}
+
+.choice {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		width: 90vw;
+		margin: 0 auto;
+	}
+	.form-box {
+		width: 90vw;
+	}
+}
