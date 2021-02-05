@@ -13,9 +13,9 @@ body {
 	text-align: center;
 }
 
-header {
+#navbar {
 	text-align: right;
-	padding: 40px;
+	padding: 20px 60px;
 	background-color: #a1dd70;
 	position: fixed;
 	top: 0;
@@ -50,14 +50,19 @@ li {
 
 .about-me {
 	width: 80vw;
+	height: auto;
 	margin: 0 auto;
 	display: flex;
 	justify-content: flex-end;
 }
 
 .about-me img {
+	width: 30%;
+	height: 100%;
+	object-fit: cover;
 	border-radius: 25px;
 	border: 2px solid #00bdaa;
+	vertical-align: middle;
 }
 
 .bio {
@@ -65,8 +70,45 @@ li {
 	padding-left: 30px;
 }
 
+.bio h1,
+.bio h2 {
+	margin: 0 0 0.5em;
+}
 .bio p {
-	line-height: 1.5em;
+	line-height: 2em;
 	/* padding: 0; */
 	margin: 0;
+}
+
+#projects {
+	padding-top: 80px;
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.projects a {
+	text-decoration: none;
+}
+
+.projects h1 {
+	margin: 0;
+	/* padding: ; */
+	background-color: #00bdaa;
+	color: #eaeaea;
+	font-size: 1em;
+	line-height: 3em;
+}
+
+.projects img {
+	width: 100%;
+}
+
+.project-tile {
+	border: 1px solid #204969;
 }
