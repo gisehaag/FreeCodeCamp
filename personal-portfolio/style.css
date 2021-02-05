@@ -48,6 +48,10 @@ li {
 	height: 100vh;
 }
 
+#welcome-section h1 {
+	font-size: 3em;
+}
+
 .about-me {
 	width: 80vw;
 	height: auto;
@@ -70,7 +74,11 @@ li {
 	padding-left: 30px;
 }
 
-.bio h1,
+.about-me h1 {
+	font-size: 2.5em;
+}
+
+.about-me h1,
 .bio h2 {
 	margin: 0 0 0.5em;
 }
@@ -82,6 +90,13 @@ li {
 
 #projects {
 	padding-top: 80px;
+	height: 150vh;
+	background-color: #8559a5;
+	color: #eaeaea;
+}
+
+.project-title {
+	font-size: 3em;
 }
 
 .projects {
@@ -98,17 +113,100 @@ li {
 
 .projects h1 {
 	margin: 0;
+	/* font-size: 1em; */
 	/* padding: ; */
 	background-color: #00bdaa;
 	color: #eaeaea;
-	font-size: 1em;
+	font-size: 1rem;
 	line-height: 3em;
 }
 
 .projects img {
 	width: 100%;
+	margin: 0;
 }
 
 .project-tile {
 	border: 1px solid #204969;
+}
+
+#contact {
+	padding-top: 300px;
+	height: calc(100vh - 50px);
+	text-align: center;
+}
+
+#contact h1 {
+	font-size: 3em;
+	margin: 0;
+	margin-bottom: 0.7rem;
+}
+
+#contact p {
+	margin: 0;
+	margin-bottom: 0.7em;
+}
+
+.social ul {
+	padding: 0;
+}
+
+.social a {
+	text-decoration: none;
+	color: #204969;
+	font-size: 20px;
+	font-weight: 600;
+	/* margin-left: 40px; */
+}
+
+.social span {
+	padding: 15px;
+	line-height: 3em;
+}
+
+@media screen and (max-width: 768px) {
+	#navbar {
+		text-align: center;
+		padding: 20px;
+	}
+
+	#navbar a {
+		margin: 0;
+		padding: 10px;
+	}
+
+	#welcome-section {
+		min-height: 130vh;
+	}
+
+	.about-me {
+		flex-direction: column;
+	}
+
+	.about-me img {
+		width: 50%;
+		margin: 0 auto 20px;
+	}
+
+	.bio {
+		padding-left: 0;
+	}
+
+	#projects {
+		min-height: 300vh;
+	}
+
+	.projects {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.project-title {
+		font-size: 2.5em;
+	}
+
+	#contact {
+		width: 90vw;
+		margin: 0 auto;
+	}
 }
