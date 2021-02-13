@@ -1,6 +1,6 @@
-## FreeCodeCamp Chanllenges
+# FreeCodeCamp Chanllenges
 
-I found this amazing source of knowledge and I want to do every single challenge 🤓.
+<p>I found this amazing source of knowledge, and I want to do every single challenge 🤓.</p>
 
 I going to add to this [repo](https://github.com/gisehaag/freeCodeCamp) all my projects done.
 
