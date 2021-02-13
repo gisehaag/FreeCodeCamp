@@ -11,8 +11,8 @@ const projects = {
 	},
 
 	'tictactoe': {
-		'title': '',
-		'image': '',
+		'title': 'Tic Tac Toe',
+		'image': 'https://github.com/gisehaag/training-projects/blob/main/screenshots/tictactoe.png?raw=true',
 		'date': 'ene-21',
 		'technology': ['html5', 'css3', 'javascript', 'github'],
 		'inspirationTitle': '???',
